@@ -20,7 +20,7 @@ do.fc = function(df, reverse) {
   result_fc = try({
     result <- df_fc$mean[first] / df_fc$mean[second]
     if (result < 1)
-      result = -(1 / result)
+       result = -(1 / result)
     result
   }, silent = TRUE)
   
