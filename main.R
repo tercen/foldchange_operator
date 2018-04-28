@@ -38,7 +38,7 @@ ctx = tercenCtx()
 
 if (!ctx$hasXAxis)
   stop("An x-axis factor is required.")
-if (nrow(unique(ctx$select(ctx$xAxis))) != 2)
+if (nrow(unique(ctx$select(c('.x')))) != 2)
   stop("Two groups are required on x-axis")
 
 ctx %>%
