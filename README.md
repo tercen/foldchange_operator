@@ -16,7 +16,7 @@ Input parameter|.
 
 Output relations|.
 ---|---
-`foldchange`| numeric, calculated per cell
+`FoldChange`| numeric, foldchange, calculated per cell
 
 ##### Details
 A foldchange operation is performed per cell. Each cell has values defined by the y-axis and seperated by the x-axis. The result of the foldchange is the ratio of the first divided by the second. If reverse is selected then the order of the ratio is changed.
