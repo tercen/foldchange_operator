@@ -1,6 +1,6 @@
 {
-  "name": "fold change",
-  "description": "fold change",
+  "name": "Fold Change",
+  "description": "Calculates the ratio of change between an original and subsequent measurements.",
   "tags": ["simple statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/foldchange_operator"],
