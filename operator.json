@@ -1,17 +1,21 @@
 {
   "name": "Fold Change",
   "description": "Calculates the ratio of change between an original and subsequent measurements.",
-  "tags": ["simple statistics"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/foldchange_operator"],
+  "tags": [
+    "descriptive statistics"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/foldchange_operator"
+  ],
   "properties": [
-  {
-    "kind": "BooleanProperty",
-    "name": "reverse",
-    "defaultValue": false,
-    "description": "A logical variable indicating whether to reverse the x-axis order of the data. If TRUE then it reverses."
-  }
+    {
+      "kind": "BooleanProperty",
+      "name": "reverse",
+      "defaultValue": false,
+      "description": "A logical variable indicating whether to reverse the x-axis order of the data. If TRUE then it reverses."
+    }
   ]
 }
-
-
